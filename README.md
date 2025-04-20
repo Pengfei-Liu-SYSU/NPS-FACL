@@ -2,7 +2,7 @@
 
 ## Overview
 
-The FACL model is a transformer-based framework designed to classify novel psychoactive substances (NPS) for forensic toxicology applications. It leverages fragment-aware tokenization and explainable uncertainty quantification to enhance NPS detection, offering a valuable tool for rapid substance identification.
+The FACL model is a large language model framework designed to classify novel psychoactive substances (NPS) for forensic toxicology applications. It leverages fragment-aware tokenization and explainable uncertainty quantification to enhance NPS detection, offering a valuable tool for rapid substance identification.
 
 ## Model Architecture
 
