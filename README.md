@@ -30,4 +30,4 @@ To understand FACL's classification behavior, we analyzed fuzzy cases and incorr
 
 ![Cases Analysis](figures/figure5_cases.png)
 
-**Figure 5**: (a) Fuzzy cases with high entropy, reflecting confidence values around 0.5, indicative of classification ambiguity due to structural overlap between NPS and approved drugs; (b) Incorrect low-confidence cases with high confidence but incorrect predictions, where molecules labeled as non-NPS (truth: 0) but predicted as NPS (predicted: 1) may indicate potential NPS risks, warranting further investigation.
+**Figure 3**: (a) Fuzzy cases with high entropy, reflecting confidence values around 0.5, indicative of classification ambiguity due to structural overlap between NPS and approved drugs; (b) Incorrect low-confidence cases with high confidence but incorrect predictions, where molecules labeled as non-NPS (truth: 0) but predicted as NPS (predicted: 1) may indicate potential NPS risks, warranting further investigation.
