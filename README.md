@@ -8,7 +8,7 @@ The FACL model is a transformer-based framework designed to classify novel psych
 
 The FACL model uses an NPS-aware tokenizer to process molecular structures, focusing on key substructures. The overview of the model pipeline is shown below:
 
-![Model Architecture](figures/figure1_overview.pdf)
+![Model Architecture](figures/figure1_overview.png)
 
 **Figure 1**: Overview of the FACL model pipeline, illustrating the NPS detection benchmark and fragment-aware tokenization process.
 
@@ -16,7 +16,7 @@ The FACL model uses an NPS-aware tokenizer to process molecular structures, focu
 
 FACL outperforms baseline models in NPS classification, as demonstrated by performance comparisons and confusion matrices:
 
-![Results](figures/figure4_result.pdf)
+![Results](figures/figure4_result.png)
 
 **Figure 2**: (a) Performance comparison of FACL against baseline models; (b) Confusion matrices of FACL and baseline models.
 
