@@ -1,0 +1,286 @@
+{
+    "fuzzy_cases": [
+        {
+            "smiles": "C=CC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3F",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5055286884307861,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCNC(C)C(=O)NC1=C(SC=C1C)C(=O)OC",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5135982036590576,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5143471956253052,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCNC1(CCCCC1=O)C2=CC(=CC=C2)OC",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5144792795181274,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCNC(C)C(=O)C1=CC2=C(C=C1)OCO2",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5148850679397583,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCNC(C)(C)COC(=O)C1=CC=CC=C1",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5152457356452942,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCNC(C)CC1=CC=CC=C1",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5164397358894348,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCNC(C)C(=O)C1=CC=CC=C1",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5165801644325256,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(O)=O",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5195984840393066,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC(=O)OC1=CC=CC2=C1C(=CN2)CCN(C)CC=C",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.47370827198028564,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC(=O)C(C#N)C1=CC=CC=C1",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5294967889785767,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCCl",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5579838156700134,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCN(CC)CC(C)(C)COC(=O)C1=CC=C(C=C1)N",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.43467390537261963,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC1=CC=C2N3CCNC4CCCC(=C34)C2=C1",
+            "truth": 0,
+            "predicted_label": 0,
+            "confidence": 0.4332764446735382,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CCN",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.42003992199897766,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CN",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.41111433506011963,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CN1CCCC1=O",
+            "truth": 1,
+            "predicted_label": 1,
+            "confidence": 0.5917202830314636,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "CC(=O)OCC[N+](C)(C)C",
+            "truth": 0,
+            "predicted_label": 0,
+            "confidence": 0.399681031703949,
+            "is_incorrect": false
+        },
+        {
+            "smiles": "I",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.39426639676094055,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "ClCCN(CCCl)P1(=O)NCCCO1",
+            "truth": 0,
+            "predicted_label": 0,
+            "confidence": 0.3765708804130554,
+            "is_incorrect": false
+        }
+    ],
+    "incorrect_low_confidence_cases": [
+        {
+            "smiles": "CCCNC(C)C(=O)NC1=C(SC=C1C)C(=O)OC",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5135982036590576,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5143471956253052,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(O)=O",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5195984840393066,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC(=O)OC1=CC=CC2=C1C(=CN2)CCN(C)CC=C",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.47370827198028564,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCl",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.5579838156700134,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCN(CC)CC(C)(C)COC(=O)C1=CC=C(C=C1)N",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.43467390537261963,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCN",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.42003992199897766,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CN",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.41111433506011963,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "I",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.39426639676094055,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC1=CC(=O)N(O)C(=C1)C1CCCCC1",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.7080901265144348,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCN(CC)CCC1=CNC2=C1C=C(C=C2)OC",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.2228691130876541,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "OCC(O)CO",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.8154759407043457,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "O=C(C1CCCCC1)N1CC2N(CCC3=CC=CC=C23)C(=O)C1",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.8388688564300537,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCN(C)CCC1=CNC2=C1C(=CC=C2)OC(=O)C",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.13764680922031403,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC1=CC2=C(CC(C2)N)C=C1OC",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.1286044865846634,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "C(C(COC(C(Cl)(Cl)Cl)O)(COC(C(Cl)(Cl)Cl)O)COC(C(Cl)(Cl)Cl)O)OC(C(Cl)(Cl)Cl)O",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.0686974972486496,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "C[C@@H](CO)NC(=O)[C@H]1CN([C@@H]2CC3=CNC4=CC=CC(=C34)C2=C1)C",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.060681749135255814,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CC[N+](C)(C)CC1=CC=CC=C1Br",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.9491814970970154,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "[P]",
+            "truth": 1,
+            "predicted_label": 0,
+            "confidence": 0.045461468398571014,
+            "is_incorrect": true
+        },
+        {
+            "smiles": "CCCSC1=CC2=C(C=C1)N=C(NC(=O)OC)N2",
+            "truth": 0,
+            "predicted_label": 1,
+            "confidence": 0.9631211757659912,
+            "is_incorrect": true
+        }
+    ]
+}
