@@ -1,4 +1,4 @@
-# NPS-FACL: Forensic Toxicology Intelligence for Novel Psychoactive Substances: A Fragment-Aware Chemical Language Model with Explainable Uncertainty Quantification
+# NPS-FACL: A Fragment-Aware Chemical Language Model with Explainable Uncertainty Quantification
 
 ## Overview
 
